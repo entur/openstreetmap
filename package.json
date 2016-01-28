@@ -48,6 +48,7 @@
     "pelias-logger": "^0.0.8",
     "pelias-model": "git://github.com/pelias/model.git#c97cf830d4fe9cb8333f714ee70a72b476779e9c",
     "pelias-wof-admin-lookup": "git://github.com/pelias/wof-admin-lookup#parallel-stream",
+    "pelias-admin-lookup": "^2.0.8",
     "through2": "^2.0.0",
     "through2-sink": "^1.0.0",
     "through2-sync": "^0.2.2",
