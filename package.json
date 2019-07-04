@@ -13,7 +13,9 @@
     "coverage": "node_modules/.bin/istanbul cover test/run.js",
     "end-to-end": "npm run pretest && node test/end-to-end.js;",
     "lint": "jshint .",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -52,7 +54,8 @@
     "through2": "^2.0.0",
     "through2-sink": "^1.0.0",
     "through2-sync": "^0.2.2",
-    "trimmer": "^1.0.0"
+    "trimmer": "^1.0.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "async": "^1.2.1",
@@ -71,5 +74,6 @@
     "lint",
     "validate",
     "test"
-  ]
+  ],
+  "snyk": true
 }
